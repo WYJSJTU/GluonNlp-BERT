@@ -8,14 +8,17 @@ Sentiment Analysis on Chinese and English Datasets based on GluonNlp BERT model
 * GluonNLP 0.9.2
 
 ## Datasets
-* waimai_10k 外卖平台收集的用户评价，正向4000条，负向约8000条。二分类任务
-* simplifyweibo_4_moods 情感标注的新浪微博，共计36万多条。三分类任务
-* Meituan ASAP 大规模的餐馆点评数据集，包括了46730个点评App的用户评论。五分类任务
-* Movie comment_50k 英文电影评论极性数据集，共25000条正面电影评论，25000条负面评论。
+* **waimai_10k**: Chinese cutomer review on takeaway app with sentiment annotation of positive and negetive, 2 categories classification task.
+* **simplifyweibo_4_moods**: Chinese users posts on Sina Weibo with sentiment annotation of joy, angry and disgust，3 categories classification task.
+* **Meituan ASAP**: Chinese restaurant review with star annotation from 1 to 5, 5 categories classification task.
+* **Movie comment_50k**: English polar movie review with sentiment annotation of positive and negetive, 2 categories classification task.
 ## Data Preperation
-请在此位置下载数据集
-
+Please download datasets from this link:
 Link：https://pan.baidu.com/s/1dRe7gwVvZxwBlJloO4ExfA 
 Password：y5d3 
 
-解压至data文件夹内
+And place the folders to the ./data directory
+
+## Training and Testing
+
+
