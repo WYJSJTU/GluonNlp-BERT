@@ -23,5 +23,10 @@ And place the folders to the ./data directory
 ```shell
 python3 finetune_classifier.py --gpu 4 --task_name ${TASK} --batch_size 8 --seed 0 --lr 2e-5 --warmup_ratio 0.1 --epochs 5 --log_interval 100 --accumulate 4
 ```
+Task names:
 
+* **waimai_10k**: waimai
+* **simplifyweibo_4_moods**: weibo3
+* **Meituan ASAP**: meituan
+* **Movie comment_50k**: movie
 
