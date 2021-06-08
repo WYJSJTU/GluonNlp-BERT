@@ -14,7 +14,8 @@ Sentiment Analysis on Chinese and English Datasets based on GluonNlp BERT model
 * Movie comment_50k 英文电影评论极性数据集，共25000条正面电影评论，25000条负面评论。
 ## Data Preperation
 请在此位置下载数据集
+
 Link：https://pan.baidu.com/s/1dRe7gwVvZxwBlJloO4ExfA 
 Password：y5d3 
-复制这段内容后打开百度网盘手机App，操作更方便哦
+
 解压至data文件夹内
