@@ -20,5 +20,8 @@ Password：y5d3
 And place the folders to the ./data directory
 
 ## Training and Testing
+```shell
+python3 finetune_classifier.py --gpu 4 --task_name ${TASK} --batch_size 8 --seed 0 --lr 2e-5 --warmup_ratio 0.1 --epochs 5 --log_interval 100 --accumulate 4
+```
 
 
