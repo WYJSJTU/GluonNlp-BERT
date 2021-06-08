@@ -49,7 +49,7 @@ from gluonnlp.data import BERTTokenizer
 from gluonnlp.model import BERTClassifier, RoBERTaClassifier
 from gluonnlp.calibration import BertLayerCollector
 from data.classification import MRPCTask, QQPTask, RTETask, STSBTask, SSTTask
-from data.classification import QNLITask, CoLATask, MNLITask, WNLITask, XNLITask, Weibo3Task,WaimaiTask,StockTask,MeituanTask
+from data.classification import QNLITask, CoLATask, MNLITask, WNLITask, XNLITask, Weibo3Task,WaimaiTask,StockTask,MeituanTask, MovieTask
 from data.classification import LCQMCTask, ChnSentiCorpTask
 from data.preprocessing_utils import truncate_seqs_equal, concat_sequences
 from tensorboardX import SummaryWriter
@@ -72,7 +72,8 @@ tasks = {
     'weibo3': Weibo3Task(),
     'waimai': WaimaiTask(),
     'stock': StockTask(),
-    'meituan': MeituanTask()
+    'meituan': MeituanTask()，
+    'movie': MovieTask()
 }
 
 parser = argparse.ArgumentParser(

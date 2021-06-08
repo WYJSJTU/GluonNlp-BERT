@@ -16,7 +16,7 @@
 
 __all__ = [
     'MRPCTask', 'QQPTask', 'QNLITask', 'RTETask', 'STSBTask',
-    'CoLATask', 'MNLITask', 'WNLITask', 'SSTTask', 'XNLITask','Weibo3Task','WaimaiTask','StockTask','MeituanTask'
+    'CoLATask', 'MNLITask', 'WNLITask', 'SSTTask', 'XNLITask','Weibo3Task','WaimaiTask','StockTask','MeituanTask','MovieTask'
 ]
 
 from mxnet.metric import Accuracy, F1, MCC, PearsonCorrelation, CompositeEvalMetric
@@ -26,7 +26,7 @@ try:
     from .baidu_ernie_data import BaiduErnieXNLI, BaiduErnieLCQMC, BaiduErnieChnSentiCorp
 except ImportError:
     from baidu_ernie_data import BaiduErnieXNLI, BaiduErnieLCQMC, BaiduErnieChnSentiCorp
-from .csdata import WeiboData,WaimaiData,StockData,MeituanData
+from .csdata import WeiboData,WaimaiData,StockData,MeituanData,MovieData
 
 class GlueTask:
     """Abstract GLUE task class.
@@ -426,3 +426,25 @@ class MeituanTask(GlueTask):
             Dataset segments. Options are 'dev', 'test', 'train'
         """
         return MeituanData(segment)
+
+
+
+    class MovieTask(GlueTask):
+    """The Chinese sentiment analysis task
+       Movie     2 classes
+    """
+    def __init__(self):
+        is_pair = False
+        class_labels = ['0', '1']
+        metric = Accuracy()
+        super(MovieTask, self).__init__(class_labels, metric, is_pair)
+
+    def get_dataset(self, segment='train'):
+        """Get the corresponding dataset for CNSA.
+
+        Parameters
+        ----------
+        segment : str, default 'train'
+            Dataset segments. Options are 'dev', 'test', 'train'
+        """
+        return MovieData(segment)

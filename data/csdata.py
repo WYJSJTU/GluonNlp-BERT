@@ -111,3 +111,28 @@ class MeituanData(_MeituanDataset):
         super(MeituanData, self).__init__(root, 'meituan', segment,
                                              num_discard_samples=num_discard_samples,
                                              field_indices=field_indices)
+
+class _MovieDataset(TSVDataset):
+    def __init__(self, root, dataset_name, segment, **kwargs):
+        self._root = root
+        filename = os.path.join(self._root, dataset_name, '%s_movie.tsv' % segment)
+        super(_MovieDataset, self).__init__(filename, field_separator=Splitter('\t'), **kwargs)
+
+
+@register(segment=['train', 'dev', 'test'])
+class MovieData(_MovieDataset):
+
+    def __init__(self, segment='train',
+                 root=os.path.join(os.path.dirname(os.path.abspath(__file__))),
+                 return_all_fields=False):
+        A_IDX, LABEL_IDX = 1, 0
+        if segment in ['train', 'dev']:
+            field_indices = [A_IDX, LABEL_IDX] if not return_all_fields else None
+            num_discard_samples = 1
+        elif segment == 'test':
+            field_indices = [A_IDX] if not return_all_fields else None
+            num_discard_samples = 1
+
+        super(MovieData, self).__init__(root, 'movie', segment,
+                                             num_discard_samples=num_discard_samples,
+                                             field_indices=field_indices)
