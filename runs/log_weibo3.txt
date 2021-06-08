@@ -1,0 +1,235 @@
+INFO:root:15:02:13 Namespace(accumulate=None, batch_size=32, bert_dataset='book_corpus_wiki_en_uncased', bert_model='bert_12_768_12', calib_mode='customize', deploy=False, dev_batch_size=8, dtype='float32', early_stop=None, epochs=5, epsilon=1e-06, gpu=0, log_interval=400, lr=2e-05, max_len=128, model_parameters=None, model_prefix=None, num_calib_batches=5, only_calibration=False, only_inference=False, optimizer='bertadam', output_dir='./output_dir', pretrained_bert_parameters=None, quantized_dtype='auto', round_to=None, seed=2, task_name='weibo3', training_steps=None, warmup_ratio=0.1)
+INFO:root:15:02:16 processing dataset...
+INFO:root:15:02:39 Now we are doing BERT classification training on gpu(0)!
+INFO:root:15:02:39 training steps=16406
+INFO:root:15:05:05 Namespace(accumulate=None, batch_size=32, bert_dataset='book_corpus_wiki_en_uncased', bert_model='bert_12_768_12', calib_mode='customize', deploy=False, dev_batch_size=8, dtype='float32', early_stop=None, epochs=5, epsilon=1e-06, gpu=0, log_interval=400, lr=2e-05, max_len=128, model_parameters=None, model_prefix=None, num_calib_batches=5, only_calibration=False, only_inference=False, optimizer='bertadam', output_dir='./output_dir', pretrained_bert_parameters=None, quantized_dtype='auto', round_to=None, seed=2, task_name='weibo3', training_steps=None, warmup_ratio=0.1)
+INFO:root:15:05:20 processing dataset...
+INFO:root:15:06:02 Now we are doing BERT classification training on gpu(0)!
+INFO:root:15:06:02 training steps=16406
+INFO:root:15:07:11 Namespace(accumulate=None, batch_size=32, bert_dataset='book_corpus_wiki_en_uncased', bert_model='bert_12_768_12', calib_mode='customize', deploy=False, dev_batch_size=8, dtype='float32', early_stop=None, epochs=5, epsilon=1e-06, gpu=0, log_interval=400, lr=2e-05, max_len=128, model_parameters=None, model_prefix=None, num_calib_batches=5, only_calibration=False, only_inference=False, optimizer='bertadam', output_dir='./output_dir', pretrained_bert_parameters=None, quantized_dtype='auto', round_to=None, seed=2, task_name='weibo3', training_steps=None, warmup_ratio=0.1)
+INFO:root:15:07:18 processing dataset...
+INFO:root:15:07:42 Namespace(accumulate=None, batch_size=4, bert_dataset='book_corpus_wiki_en_uncased', bert_model='bert_12_768_12', calib_mode='customize', deploy=False, dev_batch_size=8, dtype='float32', early_stop=None, epochs=5, epsilon=1e-06, gpu=0, log_interval=400, lr=2e-05, max_len=128, model_parameters=None, model_prefix=None, num_calib_batches=5, only_calibration=False, only_inference=False, optimizer='bertadam', output_dir='./output_dir', pretrained_bert_parameters=None, quantized_dtype='auto', round_to=None, seed=2, task_name='weibo3', training_steps=None, warmup_ratio=0.1)
+INFO:root:15:07:48 processing dataset...
+INFO:root:15:08:27 Now we are doing BERT classification training on gpu(0)!
+INFO:root:15:08:27 training steps=131250
+INFO:root:15:08:56 [Epoch 1 Batch 400/26255] loss=1.1278, lr=0.0000006, metrics:accuracy:0.3262
+INFO:root:15:09:24 [Epoch 1 Batch 800/26255] loss=1.1032, lr=0.0000012, metrics:accuracy:0.3441
+INFO:root:15:09:53 [Epoch 1 Batch 1200/26255] loss=1.0998, lr=0.0000018, metrics:accuracy:0.3488
+INFO:root:15:10:21 [Epoch 1 Batch 1600/26255] loss=1.1083, lr=0.0000024, metrics:accuracy:0.3511
+INFO:root:15:10:47 [Epoch 1 Batch 2000/26255] loss=1.1001, lr=0.0000030, metrics:accuracy:0.3545
+INFO:root:15:11:42 Namespace(accumulate=2, batch_size=8, bert_dataset='book_corpus_wiki_en_uncased', bert_model='bert_12_768_12', calib_mode='customize', deploy=False, dev_batch_size=8, dtype='float32', early_stop=None, epochs=5, epsilon=1e-06, gpu=0, log_interval=400, lr=2e-05, max_len=128, model_parameters=None, model_prefix=None, num_calib_batches=5, only_calibration=False, only_inference=False, optimizer='bertadam', output_dir='./output_dir', pretrained_bert_parameters=None, quantized_dtype='auto', round_to=None, seed=2, task_name='weibo3', training_steps=None, warmup_ratio=0.1)
+INFO:root:15:11:42 Using gradient accumulation. Effective batch size = batch_size * accumulate = 16
+INFO:root:15:11:49 processing dataset...
+INFO:root:15:14:11 Namespace(accumulate=2, batch_size=8, bert_dataset='book_corpus_wiki_en_uncased', bert_model='bert_12_768_12', calib_mode='customize', deploy=False, dev_batch_size=8, dtype='float32', early_stop=None, epochs=5, epsilon=1e-06, gpu=0, log_interval=400, lr=2e-05, max_len=128, model_parameters=None, model_prefix=None, num_calib_batches=5, only_calibration=False, only_inference=False, optimizer='bertadam', output_dir='./output_dir', pretrained_bert_parameters=None, quantized_dtype='auto', round_to=None, seed=2, task_name='weibo3', training_steps=None, warmup_ratio=0.1)
+INFO:root:15:14:11 Using gradient accumulation. Effective batch size = batch_size * accumulate = 16
+INFO:root:15:14:17 processing dataset...
+INFO:root:15:14:48 Now we are doing BERT classification training on gpu(0)!
+INFO:root:15:14:49 training steps=32812
+INFO:root:15:15:14 [Epoch 1 Batch 400/13130] loss=1.1171, lr=0.0000012, metrics:accuracy:0.3417
+INFO:root:15:15:41 [Epoch 1 Batch 800/13130] loss=1.0991, lr=0.0000024, metrics:accuracy:0.3458
+INFO:root:15:16:07 [Epoch 1 Batch 1200/13130] loss=1.0960, lr=0.0000037, metrics:accuracy:0.3511
+INFO:root:15:16:33 [Epoch 1 Batch 1600/13130] loss=1.0974, lr=0.0000049, metrics:accuracy:0.3571
+INFO:root:15:16:58 [Epoch 1 Batch 2000/13130] loss=1.0971, lr=0.0000061, metrics:accuracy:0.3587
+INFO:root:15:17:22 [Epoch 1 Batch 2400/13130] loss=1.0961, lr=0.0000073, metrics:accuracy:0.3589
+INFO:root:15:17:45 [Epoch 1 Batch 2800/13130] loss=1.0911, lr=0.0000085, metrics:accuracy:0.3618
+INFO:root:15:18:08 [Epoch 1 Batch 3200/13130] loss=1.0985, lr=0.0000097, metrics:accuracy:0.3635
+INFO:root:15:18:32 [Epoch 1 Batch 3600/13130] loss=1.0967, lr=0.0000110, metrics:accuracy:0.3660
+INFO:root:15:18:55 [Epoch 1 Batch 4000/13130] loss=1.0913, lr=0.0000122, metrics:accuracy:0.3678
+INFO:root:15:19:18 [Epoch 1 Batch 4400/13130] loss=1.0914, lr=0.0000134, metrics:accuracy:0.3690
+INFO:root:15:19:43 [Epoch 1 Batch 4800/13130] loss=1.0887, lr=0.0000146, metrics:accuracy:0.3700
+INFO:root:15:20:07 [Epoch 1 Batch 5200/13130] loss=1.0953, lr=0.0000158, metrics:accuracy:0.3711
+INFO:root:15:20:32 [Epoch 1 Batch 5600/13130] loss=1.0849, lr=0.0000171, metrics:accuracy:0.3736
+INFO:root:15:20:55 [Epoch 1 Batch 6000/13130] loss=1.0848, lr=0.0000183, metrics:accuracy:0.3754
+INFO:root:15:21:18 [Epoch 1 Batch 6400/13130] loss=1.0897, lr=0.0000195, metrics:accuracy:0.3764
+INFO:root:15:21:40 [Epoch 1 Batch 6800/13130] loss=1.0817, lr=0.0000199, metrics:accuracy:0.3783
+INFO:root:15:22:02 [Epoch 1 Batch 7200/13130] loss=1.0828, lr=0.0000198, metrics:accuracy:0.3799
+INFO:root:15:22:23 [Epoch 1 Batch 7600/13130] loss=1.0814, lr=0.0000196, metrics:accuracy:0.3810
+INFO:root:15:22:46 [Epoch 1 Batch 8000/13130] loss=1.0869, lr=0.0000195, metrics:accuracy:0.3817
+INFO:root:15:23:08 [Epoch 1 Batch 8400/13130] loss=1.0861, lr=0.0000194, metrics:accuracy:0.3821
+INFO:root:15:23:31 [Epoch 1 Batch 8800/13130] loss=1.0771, lr=0.0000192, metrics:accuracy:0.3836
+INFO:root:15:23:55 [Epoch 1 Batch 9200/13130] loss=1.0681, lr=0.0000191, metrics:accuracy:0.3857
+INFO:root:15:24:19 [Epoch 1 Batch 9600/13130] loss=1.0690, lr=0.0000190, metrics:accuracy:0.3873
+INFO:root:15:24:43 [Epoch 1 Batch 10000/13130] loss=1.0743, lr=0.0000188, metrics:accuracy:0.3883
+INFO:root:15:25:06 [Epoch 1 Batch 10400/13130] loss=1.0600, lr=0.0000187, metrics:accuracy:0.3901
+INFO:root:15:25:29 [Epoch 1 Batch 10800/13130] loss=1.0616, lr=0.0000186, metrics:accuracy:0.3921
+INFO:root:15:25:52 [Epoch 1 Batch 11200/13130] loss=1.0743, lr=0.0000184, metrics:accuracy:0.3931
+INFO:root:15:26:16 [Epoch 1 Batch 11600/13130] loss=1.0630, lr=0.0000183, metrics:accuracy:0.3945
+INFO:root:15:26:40 [Epoch 1 Batch 12000/13130] loss=1.0732, lr=0.0000182, metrics:accuracy:0.3953
+INFO:root:15:27:02 [Epoch 1 Batch 12400/13130] loss=1.0641, lr=0.0000180, metrics:accuracy:0.3966
+INFO:root:15:27:26 [Epoch 1 Batch 12800/13130] loss=1.0665, lr=0.0000179, metrics:accuracy:0.3977
+INFO:root:15:27:45 Now we are doing evaluation on dev with gpu(0).
+INFO:root:15:27:57 [Batch 400/3750] loss=1.1066, metrics:accuracy:0.4531
+INFO:root:15:28:09 [Batch 800/3750] loss=1.1112, metrics:accuracy:0.4456
+INFO:root:15:28:21 [Batch 1200/3750] loss=1.1097, metrics:accuracy:0.4425
+INFO:root:15:28:33 [Batch 1600/3750] loss=1.1550, metrics:accuracy:0.3941
+INFO:root:15:28:46 [Batch 2000/3750] loss=1.1583, metrics:accuracy:0.3608
+INFO:root:15:28:58 [Batch 2400/3750] loss=1.1478, metrics:accuracy:0.3403
+INFO:root:15:29:10 [Batch 2800/3750] loss=0.9681, metrics:accuracy:0.3707
+INFO:root:15:29:22 [Batch 3200/3750] loss=0.8997, metrics:accuracy:0.4063
+INFO:root:15:29:34 [Batch 3600/3750] loss=0.8986, metrics:accuracy:0.4343
+INFO:root:15:29:38 validation metrics:accuracy:0.4440
+INFO:root:15:29:38 Time cost=113.81s, throughput=263.61 samples/s
+INFO:root:15:29:39 params saved in: ./output_dir/model_bert_weibo3_0.params
+INFO:root:15:29:39 Time cost=890.79s
+INFO:root:15:30:07 [Epoch 2 Batch 400/13130] loss=1.0514, lr=0.0000176, metrics:accuracy:0.4528
+INFO:root:15:30:34 [Epoch 2 Batch 800/13130] loss=1.0555, lr=0.0000175, metrics:accuracy:0.4503
+INFO:root:15:31:01 [Epoch 2 Batch 1200/13130] loss=1.0448, lr=0.0000174, metrics:accuracy:0.4517
+INFO:root:15:31:25 [Epoch 2 Batch 1600/13130] loss=1.0406, lr=0.0000172, metrics:accuracy:0.4554
+INFO:root:15:31:48 [Epoch 2 Batch 2000/13130] loss=1.0369, lr=0.0000171, metrics:accuracy:0.4569
+INFO:root:15:32:12 [Epoch 2 Batch 2400/13130] loss=1.0409, lr=0.0000170, metrics:accuracy:0.4562
+INFO:root:15:32:35 [Epoch 2 Batch 2800/13130] loss=1.0448, lr=0.0000168, metrics:accuracy:0.4567
+INFO:root:15:32:59 [Epoch 2 Batch 3200/13130] loss=1.0497, lr=0.0000167, metrics:accuracy:0.4543
+INFO:root:15:33:22 [Epoch 2 Batch 3600/13130] loss=1.0445, lr=0.0000166, metrics:accuracy:0.4540
+INFO:root:15:33:47 [Epoch 2 Batch 4000/13130] loss=1.0423, lr=0.0000164, metrics:accuracy:0.4539
+INFO:root:15:34:10 [Epoch 2 Batch 4400/13130] loss=1.0517, lr=0.0000163, metrics:accuracy:0.4544
+INFO:root:15:34:32 [Epoch 2 Batch 4800/13130] loss=1.0392, lr=0.0000162, metrics:accuracy:0.4546
+INFO:root:15:34:55 [Epoch 2 Batch 5200/13130] loss=1.0510, lr=0.0000160, metrics:accuracy:0.4543
+INFO:root:15:35:18 [Epoch 2 Batch 5600/13130] loss=1.0423, lr=0.0000159, metrics:accuracy:0.4543
+INFO:root:15:35:40 [Epoch 2 Batch 6000/13130] loss=1.0506, lr=0.0000157, metrics:accuracy:0.4552
+INFO:root:15:36:04 [Epoch 2 Batch 6400/13130] loss=1.0242, lr=0.0000156, metrics:accuracy:0.4568
+INFO:root:15:36:29 [Epoch 2 Batch 6800/13130] loss=1.0431, lr=0.0000155, metrics:accuracy:0.4567
+INFO:root:15:36:52 [Epoch 2 Batch 7200/13130] loss=1.0590, lr=0.0000153, metrics:accuracy:0.4559
+INFO:root:15:37:15 [Epoch 2 Batch 7600/13130] loss=1.0378, lr=0.0000152, metrics:accuracy:0.4570
+INFO:root:15:37:39 [Epoch 2 Batch 8000/13130] loss=1.0429, lr=0.0000151, metrics:accuracy:0.4567
+INFO:root:15:38:08 [Epoch 2 Batch 8400/13130] loss=1.0382, lr=0.0000149, metrics:accuracy:0.4573
+INFO:root:15:38:35 [Epoch 2 Batch 8800/13130] loss=1.0539, lr=0.0000148, metrics:accuracy:0.4561
+INFO:root:15:39:05 [Epoch 2 Batch 9200/13130] loss=1.0451, lr=0.0000147, metrics:accuracy:0.4562
+INFO:root:15:39:33 [Epoch 2 Batch 9600/13130] loss=1.0327, lr=0.0000145, metrics:accuracy:0.4564
+INFO:root:15:40:02 [Epoch 2 Batch 10000/13130] loss=1.0446, lr=0.0000144, metrics:accuracy:0.4567
+INFO:root:15:40:32 [Epoch 2 Batch 10400/13130] loss=1.0309, lr=0.0000143, metrics:accuracy:0.4572
+INFO:root:15:40:59 [Epoch 2 Batch 10800/13130] loss=1.0414, lr=0.0000141, metrics:accuracy:0.4571
+INFO:root:15:41:26 [Epoch 2 Batch 11200/13130] loss=1.0263, lr=0.0000140, metrics:accuracy:0.4577
+INFO:root:15:41:55 [Epoch 2 Batch 11600/13130] loss=1.0358, lr=0.0000138, metrics:accuracy:0.4581
+INFO:root:15:42:22 [Epoch 2 Batch 12000/13130] loss=1.0404, lr=0.0000137, metrics:accuracy:0.4583
+INFO:root:15:42:49 [Epoch 2 Batch 12400/13130] loss=1.0396, lr=0.0000136, metrics:accuracy:0.4584
+INFO:root:15:43:15 [Epoch 2 Batch 12800/13130] loss=1.0171, lr=0.0000134, metrics:accuracy:0.4594
+INFO:root:15:43:35 Now we are doing evaluation on dev with gpu(0).
+INFO:root:15:43:47 [Batch 400/3750] loss=1.0040, metrics:accuracy:0.5353
+INFO:root:15:43:59 [Batch 800/3750] loss=1.0078, metrics:accuracy:0.5348
+INFO:root:15:44:12 [Batch 1200/3750] loss=1.0044, metrics:accuracy:0.5331
+INFO:root:15:44:24 [Batch 1600/3750] loss=1.1331, metrics:accuracy:0.4856
+INFO:root:15:44:36 [Batch 2000/3750] loss=1.1448, metrics:accuracy:0.4541
+INFO:root:15:44:48 [Batch 2400/3750] loss=1.1318, metrics:accuracy:0.4344
+INFO:root:15:45:01 [Batch 2800/3750] loss=1.0089, metrics:accuracy:0.4416
+INFO:root:15:45:13 [Batch 3200/3750] loss=0.9488, metrics:accuracy:0.4546
+INFO:root:15:45:25 [Batch 3600/3750] loss=0.9517, metrics:accuracy:0.4639
+INFO:root:15:45:29 validation metrics:accuracy:0.4668
+INFO:root:15:45:29 Time cost=114.39s, throughput=262.27 samples/s
+INFO:root:15:45:30 params saved in: ./output_dir/model_bert_weibo3_1.params
+INFO:root:15:45:30 Time cost=950.84s
+INFO:root:15:45:59 [Epoch 3 Batch 400/13130] loss=1.0111, lr=0.0000132, metrics:accuracy:0.4691
+INFO:root:15:46:28 [Epoch 3 Batch 800/13130] loss=1.0127, lr=0.0000131, metrics:accuracy:0.4779
+INFO:root:15:46:56 [Epoch 3 Batch 1200/13130] loss=1.0190, lr=0.0000129, metrics:accuracy:0.4801
+INFO:root:15:47:24 [Epoch 3 Batch 1600/13130] loss=1.0073, lr=0.0000128, metrics:accuracy:0.4806
+INFO:root:15:47:51 [Epoch 3 Batch 2000/13130] loss=1.0080, lr=0.0000127, metrics:accuracy:0.4816
+INFO:root:15:48:18 [Epoch 3 Batch 2400/13130] loss=1.0271, lr=0.0000125, metrics:accuracy:0.4809
+INFO:root:15:48:46 [Epoch 3 Batch 2800/13130] loss=1.0048, lr=0.0000124, metrics:accuracy:0.4835
+INFO:root:15:49:12 [Epoch 3 Batch 3200/13130] loss=1.0014, lr=0.0000122, metrics:accuracy:0.4859
+INFO:root:15:49:37 [Epoch 3 Batch 3600/13130] loss=1.0052, lr=0.0000121, metrics:accuracy:0.4850
+INFO:root:15:50:02 [Epoch 3 Batch 4000/13130] loss=1.0063, lr=0.0000120, metrics:accuracy:0.4863
+INFO:root:15:50:25 [Epoch 3 Batch 4400/13130] loss=1.0226, lr=0.0000118, metrics:accuracy:0.4849
+INFO:root:15:50:50 [Epoch 3 Batch 4800/13130] loss=1.0126, lr=0.0000117, metrics:accuracy:0.4856
+INFO:root:15:51:13 [Epoch 3 Batch 5200/13130] loss=1.0303, lr=0.0000116, metrics:accuracy:0.4842
+INFO:root:15:51:38 [Epoch 3 Batch 5600/13130] loss=1.0062, lr=0.0000114, metrics:accuracy:0.4846
+INFO:root:15:52:05 [Epoch 3 Batch 6000/13130] loss=1.0130, lr=0.0000113, metrics:accuracy:0.4848
+INFO:root:15:52:29 [Epoch 3 Batch 6400/13130] loss=1.0204, lr=0.0000112, metrics:accuracy:0.4843
+INFO:root:15:52:53 [Epoch 3 Batch 6800/13130] loss=0.9943, lr=0.0000110, metrics:accuracy:0.4852
+INFO:root:15:53:16 [Epoch 3 Batch 7200/13130] loss=1.0277, lr=0.0000109, metrics:accuracy:0.4847
+INFO:root:15:53:37 [Epoch 3 Batch 7600/13130] loss=1.0140, lr=0.0000108, metrics:accuracy:0.4845
+INFO:root:15:54:00 [Epoch 3 Batch 8000/13130] loss=1.0118, lr=0.0000106, metrics:accuracy:0.4847
+INFO:root:15:54:22 [Epoch 3 Batch 8400/13130] loss=0.9999, lr=0.0000105, metrics:accuracy:0.4852
+INFO:root:15:54:44 [Epoch 3 Batch 8800/13130] loss=1.0056, lr=0.0000104, metrics:accuracy:0.4852
+INFO:root:15:55:07 [Epoch 3 Batch 9200/13130] loss=1.0217, lr=0.0000102, metrics:accuracy:0.4847
+INFO:root:15:55:30 [Epoch 3 Batch 9600/13130] loss=1.0102, lr=0.0000101, metrics:accuracy:0.4850
+INFO:root:15:55:54 [Epoch 3 Batch 10000/13130] loss=1.0056, lr=0.0000099, metrics:accuracy:0.4850
+INFO:root:15:56:19 [Epoch 3 Batch 10400/13130] loss=0.9990, lr=0.0000098, metrics:accuracy:0.4855
+INFO:root:15:56:42 [Epoch 3 Batch 10800/13130] loss=1.0091, lr=0.0000097, metrics:accuracy:0.4856
+INFO:root:15:57:05 [Epoch 3 Batch 11200/13130] loss=1.0104, lr=0.0000095, metrics:accuracy:0.4857
+INFO:root:15:57:28 [Epoch 3 Batch 11600/13130] loss=1.0038, lr=0.0000094, metrics:accuracy:0.4859
+INFO:root:15:57:52 [Epoch 3 Batch 12000/13130] loss=0.9970, lr=0.0000093, metrics:accuracy:0.4864
+INFO:root:15:58:15 [Epoch 3 Batch 12400/13130] loss=0.9918, lr=0.0000091, metrics:accuracy:0.4869
+INFO:root:15:58:38 [Epoch 3 Batch 12800/13130] loss=0.9792, lr=0.0000090, metrics:accuracy:0.4879
+INFO:root:15:58:57 Now we are doing evaluation on dev with gpu(0).
+INFO:root:15:59:09 [Batch 400/3750] loss=0.9812, metrics:accuracy:0.5866
+INFO:root:15:59:21 [Batch 800/3750] loss=0.9888, metrics:accuracy:0.5833
+INFO:root:15:59:33 [Batch 1200/3750] loss=0.9819, metrics:accuracy:0.5842
+INFO:root:15:59:46 [Batch 1600/3750] loss=1.1361, metrics:accuracy:0.5279
+INFO:root:15:59:58 [Batch 2000/3750] loss=1.1435, metrics:accuracy:0.4897
+INFO:root:16:00:10 [Batch 2400/3750] loss=1.1378, metrics:accuracy:0.4636
+INFO:root:16:00:22 [Batch 2800/3750] loss=1.0162, metrics:accuracy:0.4635
+INFO:root:16:00:34 [Batch 3200/3750] loss=0.9621, metrics:accuracy:0.4678
+INFO:root:16:00:46 [Batch 3600/3750] loss=0.9616, metrics:accuracy:0.4717
+INFO:root:16:00:50 validation metrics:accuracy:0.4729
+INFO:root:16:00:50 Time cost=113.32s, throughput=264.75 samples/s
+INFO:root:16:00:53 params saved in: ./output_dir/model_bert_weibo3_2.params
+INFO:root:16:00:53 Time cost=923.00s
+INFO:root:16:01:20 [Epoch 4 Batch 400/13130] loss=0.9760, lr=0.0000087, metrics:accuracy:0.5192
+INFO:root:16:01:47 [Epoch 4 Batch 800/13130] loss=0.9784, lr=0.0000086, metrics:accuracy:0.5145
+INFO:root:16:02:14 [Epoch 4 Batch 1200/13130] loss=0.9748, lr=0.0000085, metrics:accuracy:0.5172
+INFO:root:16:02:41 [Epoch 4 Batch 1600/13130] loss=0.9696, lr=0.0000083, metrics:accuracy:0.5174
+INFO:root:16:03:04 [Epoch 4 Batch 2000/13130] loss=0.9564, lr=0.0000082, metrics:accuracy:0.5188
+INFO:root:16:03:28 [Epoch 4 Batch 2400/13130] loss=0.9754, lr=0.0000081, metrics:accuracy:0.5186
+INFO:root:16:03:51 [Epoch 4 Batch 2800/13130] loss=0.9643, lr=0.0000079, metrics:accuracy:0.5189
+INFO:root:16:04:13 [Epoch 4 Batch 3200/13130] loss=0.9747, lr=0.0000078, metrics:accuracy:0.5187
+INFO:root:16:04:36 [Epoch 4 Batch 3600/13130] loss=0.9677, lr=0.0000077, metrics:accuracy:0.5180
+INFO:root:16:05:01 [Epoch 4 Batch 4000/13130] loss=0.9665, lr=0.0000075, metrics:accuracy:0.5182
+INFO:root:16:05:26 [Epoch 4 Batch 4400/13130] loss=0.9660, lr=0.0000074, metrics:accuracy:0.5192
+INFO:root:16:05:47 [Epoch 4 Batch 4800/13130] loss=0.9739, lr=0.0000073, metrics:accuracy:0.5185
+INFO:root:16:06:10 [Epoch 4 Batch 5200/13130] loss=0.9862, lr=0.0000071, metrics:accuracy:0.5179
+INFO:root:16:06:32 [Epoch 4 Batch 5600/13130] loss=0.9759, lr=0.0000070, metrics:accuracy:0.5180
+INFO:root:16:06:54 [Epoch 4 Batch 6000/13130] loss=0.9837, lr=0.0000069, metrics:accuracy:0.5174
+INFO:root:16:07:17 [Epoch 4 Batch 6400/13130] loss=0.9815, lr=0.0000067, metrics:accuracy:0.5168
+INFO:root:16:07:40 [Epoch 4 Batch 6800/13130] loss=0.9646, lr=0.0000066, metrics:accuracy:0.5174
+INFO:root:16:08:04 [Epoch 4 Batch 7200/13130] loss=0.9636, lr=0.0000064, metrics:accuracy:0.5176
+INFO:root:16:08:26 [Epoch 4 Batch 7600/13130] loss=0.9783, lr=0.0000063, metrics:accuracy:0.5174
+INFO:root:16:08:49 [Epoch 4 Batch 8000/13130] loss=0.9635, lr=0.0000062, metrics:accuracy:0.5175
+INFO:root:16:09:12 [Epoch 4 Batch 8400/13130] loss=0.9645, lr=0.0000060, metrics:accuracy:0.5179
+INFO:root:16:09:40 [Epoch 4 Batch 8800/13130] loss=0.9652, lr=0.0000059, metrics:accuracy:0.5183
+INFO:root:16:10:08 [Epoch 4 Batch 9200/13130] loss=0.9660, lr=0.0000058, metrics:accuracy:0.5186
+INFO:root:16:10:35 [Epoch 4 Batch 9600/13130] loss=0.9741, lr=0.0000056, metrics:accuracy:0.5183
+INFO:root:16:11:03 [Epoch 4 Batch 10000/13130] loss=0.9738, lr=0.0000055, metrics:accuracy:0.5181
+INFO:root:16:11:31 [Epoch 4 Batch 10400/13130] loss=0.9546, lr=0.0000054, metrics:accuracy:0.5186
+INFO:root:16:12:00 [Epoch 4 Batch 10800/13130] loss=0.9712, lr=0.0000052, metrics:accuracy:0.5183
+INFO:root:16:12:28 [Epoch 4 Batch 11200/13130] loss=0.9633, lr=0.0000051, metrics:accuracy:0.5189
+INFO:root:16:12:57 [Epoch 4 Batch 11600/13130] loss=0.9677, lr=0.0000050, metrics:accuracy:0.5186
+INFO:root:16:13:24 [Epoch 4 Batch 12000/13130] loss=0.9761, lr=0.0000048, metrics:accuracy:0.5184
+INFO:root:16:13:52 [Epoch 4 Batch 12400/13130] loss=0.9651, lr=0.0000047, metrics:accuracy:0.5184
+INFO:root:16:14:20 [Epoch 4 Batch 12800/13130] loss=0.9712, lr=0.0000045, metrics:accuracy:0.5183
+INFO:root:16:14:43 Now we are doing evaluation on dev with gpu(0).
+INFO:root:16:14:56 [Batch 400/3750] loss=1.0386, metrics:accuracy:0.5428
+INFO:root:16:15:08 [Batch 800/3750] loss=1.0519, metrics:accuracy:0.5445
+INFO:root:16:15:21 [Batch 1200/3750] loss=1.0421, metrics:accuracy:0.5430
+INFO:root:16:15:33 [Batch 1600/3750] loss=1.0671, metrics:accuracy:0.5166
+INFO:root:16:15:45 [Batch 2000/3750] loss=1.0492, metrics:accuracy:0.5009
+INFO:root:16:15:57 [Batch 2400/3750] loss=1.0486, metrics:accuracy:0.4904
+INFO:root:16:16:09 [Batch 2800/3750] loss=1.0223, metrics:accuracy:0.4851
+INFO:root:16:16:21 [Batch 3200/3750] loss=1.0021, metrics:accuracy:0.4825
+INFO:root:16:16:34 [Batch 3600/3750] loss=1.0043, metrics:accuracy:0.4797
+INFO:root:16:16:38 validation metrics:accuracy:0.4789
+INFO:root:16:16:38 Time cost=115.01s, throughput=260.84 samples/s
+INFO:root:16:16:39 params saved in: ./output_dir/model_bert_weibo3_3.params
+INFO:root:16:16:39 Time cost=945.77s
+INFO:root:16:17:09 [Epoch 5 Batch 400/13130] loss=0.9320, lr=0.0000043, metrics:accuracy:0.5517
+INFO:root:16:17:37 [Epoch 5 Batch 800/13130] loss=0.9521, lr=0.0000042, metrics:accuracy:0.5401
+INFO:root:16:18:06 [Epoch 5 Batch 1200/13130] loss=0.9129, lr=0.0000040, metrics:accuracy:0.5461
+INFO:root:16:18:35 [Epoch 5 Batch 1600/13130] loss=0.9273, lr=0.0000039, metrics:accuracy:0.5457
+INFO:root:16:19:03 [Epoch 5 Batch 2000/13130] loss=0.9422, lr=0.0000038, metrics:accuracy:0.5432
+INFO:root:16:19:30 [Epoch 5 Batch 2400/13130] loss=0.9468, lr=0.0000036, metrics:accuracy:0.5435
+INFO:root:16:19:58 [Epoch 5 Batch 2800/13130] loss=0.9326, lr=0.0000035, metrics:accuracy:0.5419
+INFO:root:16:20:26 [Epoch 5 Batch 3200/13130] loss=0.9248, lr=0.0000034, metrics:accuracy:0.5430
+INFO:root:16:20:52 [Epoch 5 Batch 3600/13130] loss=0.9457, lr=0.0000032, metrics:accuracy:0.5415
+INFO:root:16:21:21 [Epoch 5 Batch 4000/13130] loss=0.9451, lr=0.0000031, metrics:accuracy:0.5409
+INFO:root:16:21:47 [Epoch 5 Batch 4400/13130] loss=0.9195, lr=0.0000029, metrics:accuracy:0.5428
+INFO:root:16:22:11 [Epoch 5 Batch 4800/13130] loss=0.9166, lr=0.0000028, metrics:accuracy:0.5431
+INFO:root:16:22:35 [Epoch 5 Batch 5200/13130] loss=0.9181, lr=0.0000027, metrics:accuracy:0.5437
+INFO:root:16:22:59 [Epoch 5 Batch 5600/13130] loss=0.9455, lr=0.0000025, metrics:accuracy:0.5426
+INFO:root:16:23:23 [Epoch 5 Batch 6000/13130] loss=0.9235, lr=0.0000024, metrics:accuracy:0.5434
+INFO:root:16:23:47 [Epoch 5 Batch 6400/13130] loss=0.9194, lr=0.0000023, metrics:accuracy:0.5450
+INFO:root:16:24:13 [Epoch 5 Batch 6800/13130] loss=0.9312, lr=0.0000021, metrics:accuracy:0.5454
+INFO:root:16:24:40 [Epoch 5 Batch 7200/13130] loss=0.9236, lr=0.0000020, metrics:accuracy:0.5452
+INFO:root:16:25:05 [Epoch 5 Batch 7600/13130] loss=0.9345, lr=0.0000019, metrics:accuracy:0.5446
+INFO:root:16:25:28 [Epoch 5 Batch 8000/13130] loss=0.9216, lr=0.0000017, metrics:accuracy:0.5444
+INFO:root:16:25:51 [Epoch 5 Batch 8400/13130] loss=0.9193, lr=0.0000016, metrics:accuracy:0.5455
+INFO:root:16:26:14 [Epoch 5 Batch 8800/13130] loss=0.9468, lr=0.0000015, metrics:accuracy:0.5450
+INFO:root:16:26:36 [Epoch 5 Batch 9200/13130] loss=0.9272, lr=0.0000013, metrics:accuracy:0.5449
+INFO:root:16:26:58 [Epoch 5 Batch 9600/13130] loss=0.9211, lr=0.0000012, metrics:accuracy:0.5453
